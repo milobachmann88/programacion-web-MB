@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Helados</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="tipo-de-letra">.✦ ݁˖ Heladitos uwu .✦ ݁˖</h1>
+      <h3>₊‧°𐐪♡𐑂°‧₊ Inicie su pedido online ₊‧°𐐪♡𐑂°‧₊</h3>
+      <img
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgifsanimados.de%2Fimg-gifsanimados.de%2Fh%2Fhelados%2Fhelado-16.gif&f=1&nofb=1&ipt=16ad30c22daea92f8784ffd39bf4d96a59d2ff8603b97f54c330e824236bb775"
+        alt="gatohelado"
+      />
+    </header>
+    <main>
+      <!---formulario-->
+      <form>
+        <section>
+          <h4>
+            ˚ʚ🍓ɞ˚‧｡⋆˚ʚ🍓ɞ˚‧｡⋆˚ʚ🍓ɞ˚‧｡⋆˚ʚ🍓ɞ˚‧｡⋆˚ʚ🍓ɞ˚‧｡⋆˚ʚ🍓ɞ˚‧｡⋆˚ʚ🍓ɞ˚‧｡⋆˚ʚ🍓ɞ˚‧｡⋆˚ʚ🍓ɞ˚‧｡⋆˚ʚ🍓ɞ˚‧｡⋆
+          </h4>
+          <h2>𐙚 ‧₊˚ ⋅ Datos del cliente u.u 𐙚 ‧₊˚ ⋅</h2>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" />
+          <label for="direccion">Direccion</label>
+          <input type="text" id="direccion" name="direccion" />
+          <label for="telefono">Telefono</label>
+          <input type="text" id="telefono" name="telefono" />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </section>
+        <section>
+          <h2>𐙚 ‧₊˚ ⋅ Cantidad: 𐙚 ‧₊˚ ⋅</h2>
+          <input type="radio" id="cuarto" name="peso" value="cuarto" />
+          <label for="cuarto">1/4 kg</label>
+          <input type="radio" id="medio" name="peso" value="medio" />
+          <label for="medio">1/2 kg</label>
+          <input type="radio" id="kilo" value="kilo" />
+          <label for="kilo">1 kg</label>
+        </section>
+        <section>
+          <h2>𐙚 ‧₊˚ ⋅ Sabores (max. 4) 𐙚 ‧₊˚ ⋅</h2>
+          <label for="frutilla">🍓Frutilla🍓</label>
+          <input
+            type="checkbox"
+            id="frutilla"
+            name="saborFrutilla"
+            value="frutilla"
+          />
+          <label for="vainilla">🍦Vainilla🍦</label>
+          <input
+            type="checkbox"
+            id="vainilla"
+            name="saborVainilla"
+            value="vainilla"
+          />
+          <label for="ddl">🍯Dulce de leche🍯</label>
+          <input type="checkbox" id="ddl" name="saborDdl" value="ddl" />
+          <label for="chocolate">🍫Chocolate🍫</label>
+          <input
+            type="checkbox"
+            id="chocolaate"
+            name="saborChocolate"
+            value="chocolate"
+          />
+        </section>
+        <section>
+          <label for="salsa">𐙚 ‧₊˚ ⋅ Salsa 𐙚 ‧₊˚ ⋅ </label>
+          <select id="salsa" name="salsa">
+            <option value="frutilla">Frutilla</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="ddl">Dulce de leche</option>
+            <option value="sin">Sin salsa</option>
+          </select>
+        </section>
+        <h2>𐙚 ‧₊˚ ⋅ Comentarios 𐙚 ‧₊˚ ⋅</h2>
+        <textarea name="comentarios" id="comentarios" rows="4"></textarea>
+
+        <button type="submit">EVIAR PEDIDO</button>
+      </form>
+    </main>
+  </body>
+</html>
