@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>veterinariapopotito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Veterinaria Popotito</h1>
+        <p>Reservá el turno de tu mascota online</p>
+    </header>
+    <main>
+        <form>
+            <section>
+                <h3>Tus Datos</h3>
+                <label for="nombre">Nombre Completo: </label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="telefono">Telefono: </label>
+                <input type="text" id="telefono" name="telefono">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+            </section>
+            <section>
+                <h3>Datos de tu mascota</h3>
+                <label for="nmascota">Nombre de tu mascota: </label>
+                <input type="text" id="nmascota" name="nmascota", required>
+                <label for="especie">Especie: </label>
+                <select name="especie" id="especie">
+                    <option value="perro">Perro</option>
+                    <option value="gato">Gato</option>
+                    <option value="ave">Ave</option>
+                    <option value="conejo">Conejo</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </section>
+            <section>
+                <h3>Motivo de tu consulta</h3>
+                <label for="control">Control de rutina</label>
+                <input type="radio" id="control" name="motivo" value="control">
+                <label for="vacuna">Vacunación</label>
+                <input type="radio" id="vacuna" name="motivo" value="vacuna">
+                <label for="enfermedad">Enfermedad o síntoma</label>
+                <input type="radio" id="enfermedad" name="motivo" value="enfermedad">
+            </section>
+            <section>
+                <h3>Día preferido</h3>
+                <label for="lunes">Lunes</label>
+                <input type="checkbox" id="lunes" name="dia_lunes" value="lunes">
+                <label for="miercoles">Miercoles</label>
+                <input type="checkbox" id="miercoles" name="dia_miercoles" value="miercoles">
+                <label for="viernes">Viernes</label>
+                <input type="checkbox" id="viernes" name="dia_viernes" value="viernes">
+                <label for="sabado">Sabado</label>
+                <input type="checkbox" id="sabado" name="dia_sabado" value="sabado">
+            </section>
+            <section>
+                <h3>Turno preferido</h3>
+                <label for="horario">Opciones: -- Elegí un horario --</label>
+                <select name="horario" id="horario">
+                    <option value="mañana">Mañana (9 a 13hs)</option>
+                    <option value="tarde">Tarde (14 a 18hs)</option>
+                </select>
+            </section>
+            <section>
+                <h3>Información adicional</h3>
+                <label for="comentarios">¿Querés contarnos algo más sobre tu mascota?</label>
+                <textarea name="comentarios" id="comentarios" rows="4"></textarea>
+            </section>
+            <p id="mensaje"></p>
+            <button type="submit">Solicitar turno</button>
+        </form>
+    </main>
+    <footer>
+        <p>Veterinaria Popotito — Buenos Aires</p>
+    </footer>
+</body>
