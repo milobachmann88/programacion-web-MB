@@ -21,7 +21,7 @@ button {
 
 header {
   color: #d1068d;
-  background-color: #ff96c2;
+  background-color: #fc9bdc;
   padding: 20px 32px;
 }
 
@@ -70,9 +70,9 @@ textarea:focus {
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 1rem;
-	border-color: #ff36ee;
+	border-color: #d1068d;
 	background-color: #ffffff;
-	box-shadow: 0 0 0 3px rgba(197, 1, 148, 0.15);
+	box-shadow: 0 0 0 3px #a0046c(197, 1, 148, 0.15);
 }
 
 input[type="text"]:focus,
@@ -81,7 +81,7 @@ input[type="number"]:focus,
 select:focus,
 textarea:focus {
   outline: none;
-  border-color: #e6399e;
+  border-color: #d1068d;
   background-color: #fff;
   box-shadow: 0 0 0 3px rgba(207, 2, 156, 0.15);
 }
@@ -110,7 +110,7 @@ textarea {
 button[type="submit"] {
 	width: 100%;
 	padding: 14px;
-	background-color: #ff34aa;
+	background-color: #d1068d;
 	color: white;
 	font-size: 1rem;
 	font-weight: bold;
@@ -130,7 +130,7 @@ body{
 	font-size: 16px;
 	line-height: 1.6;
 	color: #d1068d;
-    background-color: #ffc9de;
+    background-color: #ffc9ed;
 }
 
 footer {
