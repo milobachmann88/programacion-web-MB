@@ -1,0 +1,29 @@
+/* comentario */
+/* Hoja de estilos
+
+tipos de selectores:
+selector de etiqueta*/
+h1{
+    color:#d1068d;
+   /* background-color: #ff96c2;*/
+}
+body{
+    background-color: #ffc9de;
+}
+
+/*selector de clase*/
+.tipo-de-letra{
+    font-family:cursive;
+    font-size: 50px;
+}
+
+/*selector de id*/
+#titulo-principal{
+    color:blueviolet;
+}
+
+/**/
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
