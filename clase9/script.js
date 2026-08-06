@@ -86,7 +86,9 @@ equipo.filter((persona)=> persona.rol === "desarrolladora" && persona.activo===t
 console.log (desarrolladorasConBono)
 
 function obtenerRol(persona){
-    persona.nombre === "Ana" && "ADMIN" 
-    persona.activo && persona.rol.toUpperCase()
-    !=persona.activo && "Inactivo"
+    return (persona.nombre === "Ana" && "ADMIN") ||
+    (persona.activo && persona.rol.toUpperCase()) ||
+    ("Inactivo");
 }
+
+console.log (obtenerRol(equipo[0]))
